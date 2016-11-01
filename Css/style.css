@@ -1,0 +1,148 @@
+html{
+	
+}
+body, p, h1, h2, h3, li, a{
+	font-family: Helvetica, serif;
+}
+.section , .supporting{
+	font-family: 'Arvo', serif;
+}
+/*Header*/
+.header{
+	background-color: #fff;
+	background: url("../Img/header-image.jpg") no-repeat center center;
+	background-size: cover;
+	padding-bottom: 300px;
+}
+.header h1{
+	margin: 7.5px 0 7.5px 20px;
+	color: #000000;
+	font-size: 30px;
+}
+#green{
+	color: #8DFF00;
+}
+.header li a{
+	color: #000000;
+}
+.header .container{
+	background-color: #fff;
+	opacity: 0.7;
+	margin: 0;
+	width: 100%;
+}
+
+/* Supporting*/
+.supporting{
+	text-align: center;
+	background-color: #000000;
+	
+}
+.supporting h2{
+	color: #fff;
+	margin: 20px 0 20px 0;
+}
+
+/*Main*/
+.main{
+	padding: 50px 0 50px 0;
+}
+.main .thumbnail{
+	border: none;
+	padding: 0;
+}
+.text {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 100px;
+    width: 100%;
+	font-size: 22px;
+	color: #fff;
+	font-weight: bold;
+}
+
+/*Section*/
+.section .row{
+	border-bottom: 1px solid #dbdbdb;
+	padding: 40px 0 40px 0;
+	text-align: center;
+}
+.section img{
+	width: 450px;
+	height: 600px;
+	border-radius: 5px;
+}
+.section h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+.section p{
+	font-size:20px;
+}
+
+/*Contact Page*/
+form{
+	border: none;
+	background-color: #9E866E;	
+}
+#contact{
+	background-color: #9E866E;
+	text-align: center;
+	padding: 20px 0 20px;
+}
+#contact .row{
+	border: none;
+	padding: 10px;
+}
+#InputName, #InputEmail, #InputSubject{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #fff;
+	border-radius: 0; 
+    -webkit-box-shadow: none;
+	box-shadow: none;
+	margin-left: -30px;
+	background-color: #9E866E;
+}
+#Textarea{
+    -webkit-box-shadow: none;
+	box-shadow: none;
+	margin-left: -30px;
+	background-color: #9E866E;
+}
+label{
+	margin-bottom: 0;
+	padding-right:0;
+}
+button.btn.btn-primary{
+	margin-bottom: 20px;
+}
+#contact_img{
+	width: 400px;
+	height: 300px;
+}
+#contact_footer{
+	background-color: #99968f;
+}
+
+/*Footer*/
+.footer{
+	padding: 20px 0 40px 0;
+	background-color: #eee;
+	clear: both;
+}
+.footer ul{
+	list-style-type:none;
+}
+.footer li{
+	display: inline;
+	padding: 10px;
+}
+.footer a{
+		color: #000000;
+}
+
+
+
