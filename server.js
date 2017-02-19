@@ -1,8 +1,10 @@
 
+//Imports
 var express = require('express');
 var bodyParser = require('body-parser');
 var nodeMailer = require('nodemailer');
 
+//Set up
 var app = express();
 
 app.use(express.static('public'));
@@ -13,21 +15,21 @@ app.use(bodyParser.json());
 var transporter = nodeMailer.createTransport({
         service: 'Gmail',
         auth: {
-            user: 'maorportfolio@gmail.com', // Your email id
-            pass: 'feldi236' // Your password
+            user: 'maorportfolio@gmail.com',
+            pass: 'feldi236'
         }
     });
 
 
+//Handlers
+
 //Sending HTML on first GET
 app.get('/', function (req, res) {
-
   // res.sendFile("/public/index.html");
 });
 
+//Send email with the form
 app.post('/mail', function(req, res){
-
-  console.log(req.body);
 
   var message = 
   'sender: ' + req.body.name + 
