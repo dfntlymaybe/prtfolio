@@ -1,5 +1,5 @@
 
-//Imports
+// Imports
 var express = require('express');
 var bodyParser = require('body-parser');
 var nodeMailer = require('nodemailer');
