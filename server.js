@@ -13,7 +13,9 @@ app.use(bodyParser.json());
 
 
 var transporter = nodeMailer.createTransport({
-        service: 'Gmail',
+        host: 'smtp.gmail.com',
+        port: 587,
+        secure: false, // secure:true for port 465, secure:false for port 587
         auth: {
             user: 'maorportfolio@gmail.com',
             pass: 'feldi236'
