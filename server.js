@@ -7,21 +7,28 @@ var nodeMailer = require('nodemailer');
 //Set up
 var app = express();
 
+//Middlware
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
+//Set up nodeMailer with my gmail cradentials
+var transporter = nodeMailer.createTransport({ 
+      service: 'Gmail',
+      auth: {
+          user: 'maorportfolio@gmail.com',
+          pass: 'feldi236'
+      }
+  });
 
-var transporter = nodeMailer.createTransport({
-        host: 'smtp.gmail.com',
-        port: 587,
-        secure: false, // secure:true for port 465, secure:false for port 587
-        auth: {
-            user: 'maorportfolio@gmail.com',
-            pass: 'feldi236'
-        }
-    });
-
+transporter.set('oauth2_provision_cb', (user, renew, callback)=>{
+    let accessToken = userTokens[user];
+    if(!accessToken){
+        return callback(new Error('Unknown user'));
+    }else{
+        return callback(null, accessToken);
+    }
+});
 
 //Handlers
 
@@ -57,3 +64,4 @@ app.post('/mail', function(req, res){
 });
 
 app.listen(process.env.PORT || '5000');
+console.log("Its all starts here...");
