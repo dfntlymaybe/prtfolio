@@ -19,6 +19,7 @@
   "homepage": "https://github.com/dfntlymaybe/prtfolio#readme",
   "dependencies": {
     "body-parser": "^1.16.1",
+    "bootstrap": "^3.3.7",
     "express": "^4.14.1",
     "nodemailer": "^3.1.0"
   }
