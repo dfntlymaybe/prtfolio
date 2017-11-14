@@ -53,11 +53,11 @@ section .thumbnail{
 	padding: 0;
 }
 section .text {
-    left: 0;
-    position:absolute;
-    text-align:center;
-    top: 100px;
-    width: 100%;
+  left: 0;
+  position:absolute;
+  text-align:center;
+  top: 40%;
+  width: 100%;
 	font-size: 22px;
 	color: #fff;
 	font-weight: bold;
@@ -69,7 +69,32 @@ section .text {
 #about img{
 	width: 70%;
 }
-
+#about{
+  font-family: 'Indie Flower', cursive;
+}
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+  text-align:center;
+  padding-top: 15%;
+  font-size: 120%;
+  color: #fff;
+  font-weight: bold;
+  font-family:arvo;
+}
+.thumbnail:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
 /*Contact*/
 /*form{
 	border: none;	
