@@ -71,6 +71,12 @@ section .text {
 .abit-more{
   margin-top:10%;
 }
+.mobile-view{
+  display: block;
+}
+.desktop-view{
+  display: none;
+}
 .credit{
   margin-top: 5px;
   background-color:black;
@@ -168,4 +174,13 @@ input.formInvalid::-webkit-input-placeholder, textarea.formInvalid::-webkit-inpu
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+@media (min-width: 992px){
+  .mobile-view{
+    display: none;
+  }
+  .desktop-view{
+    display: block;
+  }
 }
