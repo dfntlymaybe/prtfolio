@@ -2,6 +2,7 @@
 body, p, h1, h2, h3, li, a{
 	font-family: Helvetica, serif;
 }
+
 .navbar{
 	opacity: 0.85;
 }
@@ -15,13 +16,11 @@ header {
   text-align: center;
   color: white;
 }
-
 .intro-text {
   padding-top: 300px;
   padding-bottom: 200px;
   text-align: center;
 }
-
 .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", sans-serif;
   font-style: italic;
@@ -30,7 +29,6 @@ header {
   margin-bottom: 25px;
   text-align: center;
 }
-
 .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", sans-serif;
   text-transform: uppercase;
@@ -38,10 +36,6 @@ header {
   font-size: 75px;
   line-height: 75px;
   margin-bottom: 50px;
-}
-
-#green{
-	color: #8DFF00;
 }
 
 /*Section*/
@@ -67,10 +61,28 @@ section .text {
   text-align: left;
 }
 #about img{
-	width: 70%;
+	width: 100%;
+  height: 450px;
 }
-#about{
+#about h2{
   font-family: 'Indie Flower', cursive;
+  font-size: 260%;
+}
+.abit-more{
+  margin-top:10%;
+}
+.credit{
+  margin-top: 5px;
+  background-color:black;
+  color:white;
+  text-decoration:none;
+  padding:4px 6px;
+  font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  line-height:1.2;
+  display:inline-block;
+  border-radius:3px;"
 }
 .img__description {
   position: absolute;
@@ -78,7 +90,7 @@ section .text {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(62, 65, 66, 0.72);
+  background: rgba(16, 16, 16, 0.72);
   color: #fff;
   visibility: hidden;
   opacity: 0;
@@ -95,33 +107,7 @@ section .text {
   visibility: visible;
   opacity: 1;
 }
-/*Contact*/
-/*form{
-	border: none;	
-}
-#contact{
-	text-align: center;
-	padding: 20px 0 20px;
-}
-#contact .row{
-	border: none;
-	padding: 10px;
-}
-#InputName, #InputEmail, #InputSubject{
-	border-top: none;
-	border-left: none;
-	border-right: none;
-	border-bottom: 1px solid;
-	border-radius: 0; 
-  -webkit-box-shadow: none;
-	box-shadow: none;
-	margin-left: -30px;
-}
-#Textarea{
-  -webkit-box-shadow: none;
-	box-shadow: none;
-	margin-left: -30px;
-}*/
+
 label{
 	margin-bottom: 0;
 	padding-right:0;
