@@ -2,9 +2,12 @@
 body, p, h1, h2, h3, li, a{
 	font-family: Helvetica, serif;
 }
-
+/*navbar*/
 .navbar{
 	opacity: 0.85;
+}
+#right-nav>li{
+  display: inline-block;
 }
 
 /*Header*/
@@ -17,7 +20,7 @@ header {
   color: white;
 }
 .intro-text {
-  padding-top: 300px;
+  padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
@@ -38,7 +41,7 @@ header {
   margin-bottom: 50px;
 }
 
-/*Section*/
+/*about*/
 section{
 	text-align: center;
 }
@@ -77,19 +80,8 @@ section .text {
 .desktop-view{
   display: none;
 }
-.credit{
-  margin-top: 5px;
-  background-color:black;
-  color:white;
-  text-decoration:none;
-  padding:4px 6px;
-  font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;
-  font-size:12px;
-  font-weight:bold;
-  line-height:1.2;
-  display:inline-block;
-  border-radius:3px;"
-}
+
+/*projects*/
 .img__description {
   position: absolute;
   top: 0;
@@ -114,6 +106,7 @@ section .text {
   opacity: 1;
 }
 
+/*contact*/
 label{
 	margin-bottom: 0;
 	padding-right:0;
@@ -130,23 +123,6 @@ button.btn.btn-primary{
 }
 input.formInvalid::-webkit-input-placeholder, textarea.formInvalid::-webkit-input-placeholder {
   color: red;
-}
-
-/*Footer*/
-.footer{
-	padding: 20px 0 40px 0;
-	background-color: #eee;
-	clear: both;
-}
-.footer ul{
-	list-style-type:none;
-}
-.footer li{
-	display: inline;
-	padding: 10px;
-}
-.footer a{
-		color: #000000;
 }
 .error {
   color: red;
@@ -169,6 +145,23 @@ input.formInvalid::-webkit-input-placeholder, textarea.formInvalid::-webkit-inpu
     left: 50%;
     top: 50%;
     display: none;
+}
+
+/*Footer*/
+.footer{
+	padding: 20px 0 40px 0;
+	background-color: #eee;
+	clear: both;
+}
+.footer ul{
+	list-style-type:none;
+}
+.footer li{
+	display: inline;
+	padding: 10px;
+}
+.footer a{
+		color: #000000;
 }
 
 @keyframes spin {
