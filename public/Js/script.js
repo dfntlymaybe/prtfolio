@@ -19,6 +19,7 @@ $(function() {
 var validatNotEmpty = function(field){
   if(field.val() === ""){
     field.attr('placeholder','Empty field');
+    field.addClass('formInvalid');
     return false;
   }else{
     return true;
@@ -34,6 +35,7 @@ var validateMail = function(email){
   }else{//not valid email
     email.val('');
     email.attr('placeholder','Please enter valid email');
+    email.className += 'formInvalid';
     return false;
   }
 };

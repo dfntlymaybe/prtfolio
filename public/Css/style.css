@@ -122,7 +122,10 @@ button.btn.btn-primary{
 #contact_footer{
 	background-color: #99968f;
 }
- 
+input.formInvalid::-webkit-input-placeholder, textarea.formInvalid::-webkit-input-placeholder {
+  color: red;
+}
+
 /*Footer*/
 .footer{
 	padding: 20px 0 40px 0;
