@@ -1,9 +1,16 @@
 
-body, p, h1, h2, h3, li, a, label, #form-submit, #left-nav{
+body, p, h1, h2, h3, li, a, label, #form-submit{
 	font-family: Helvetica, serif;
   font-size: 150%;
 }
-
+#left-nav{
+  font-size: 250%;
+  padding: 30px 15px;
+}
+#right-nav{
+  height: 100px;
+  padding: 20px 15px;
+}
 /*navbar*/
 .navbar{
 	opacity: 0.85;
@@ -156,8 +163,16 @@ input.formInvalid::-webkit-input-placeholder, textarea.formInvalid::-webkit-inpu
 
 @media (min-width: 992px){
 
-  body, p, h1, h2, h3, li, a{
+  body, p, h1, h2, h3, li, a, #left-nav{
     font-size: 100%;
+  }
+  #left-nav{
+    height: 50px;
+    padding: 15px;
+  }
+  #right-nav{
+    height: 50px;
+    padding:3px;
   }
   #about h2{
     font-size: 260%;
