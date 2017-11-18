@@ -1,8 +1,9 @@
 
-body, p, h1, h2, h3, li, a, label{
+body, p, h1, h2, h3, li, a, label, #form-submit{
 	font-family: Helvetica, serif;
-  font-size: 120%;
+  font-size: 150%;
 }
+
 /*navbar*/
 .navbar{
 	opacity: 0.85;
@@ -59,7 +60,6 @@ section .text {
   text-align:center;
   top: 40%;
   width: 100%;
-/*	font-size: 22px;*/
 	color: #fff;
 	font-weight: bold;
 }
@@ -98,11 +98,7 @@ section .text {
 label{
 	margin-bottom: 0;
 	padding-right:0;
-/*  text-align: left;
-*/}
-button.btn.btn-primary{
-/*	margin-bottom: 10px;
-*/}
+}
 #contact_img{
 	width: 400px;
 	height: 300px;
@@ -117,12 +113,10 @@ input.formInvalid::-webkit-input-placeholder, textarea.formInvalid::-webkit-inpu
 .error {
   color: red;
   font-weight: bold;
-/*  font-size: 100%;*/
 }
 .success {
   color: green;
   font-weight: bold;
-/*  font-size: 16px;*/
 }
 .loader {
     border: 16px solid #f3f3f3; /* Light grey */
