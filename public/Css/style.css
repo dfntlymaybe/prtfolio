@@ -5,11 +5,11 @@ body, p, h1, h2, h3, li, a, label, #form-submit{
 }
 #left-nav{
   font-size: 250%;
-  padding: 30px 15px;
+  padding: 30px 0px;
 }
 #right-nav{
   height: 100px;
-  padding: 20px 15px;
+  padding: 15px 0px;
 }
 /*navbar*/
 .navbar{
@@ -168,11 +168,11 @@ input.formInvalid::-webkit-input-placeholder, textarea.formInvalid::-webkit-inpu
   }
   #left-nav{
     height: 50px;
-    padding: 15px;
+    padding: 15px 0px;
   }
   #right-nav{
     height: 50px;
-    padding:3px;
+    padding: 2px 0px;
   }
   #about h2{
     font-size: 260%;
