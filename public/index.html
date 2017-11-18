@@ -13,7 +13,7 @@
 		
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#header">Maor Feldinger</a>
+        <a class="navbar-brand" id="left-nav" href="#header">Maor Feldinger</a>
         <ul class="nav navbar-nav pull-right" id="right-nav">
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
@@ -116,30 +116,32 @@
           <div class="col-md-6"> 
             <form>
               <div class="form-group row">
-                <label for="InputEmail" class="col-md-2 col-form-label">Email:</label>
-                <div class="col-md-10">
+                <label for="InputEmail" class="col-xs-2 col-form-label">Email:</label>
+                <div class="col-xs-10">
                   <input class="form-control" id="InputEmail" placeholder="Enter E-mail address">
                 </div>
               </div>
               <div class="form-group row">
-                <label for="InputName" class="col-md-2 col-form-label">Name:</label>
-                <div class="col-md-10">
+                <label for="InputName" class="col-xs-2 col-form-label">Name:</label>
+                <div class="col-xs-10">
                   <input class="form-control" id="InputName"  placeholder="Enter Full Name">
                 </div>
               </div>
               <div class="form-group row">
-                <label for="InputSubject" class="col-md-2">Subject:</label>
-                <div class="col-md-10">
+                <label for="InputSubject" class="col-xs-2">Subject:</label>
+                <div class="col-xs-10">
                   <input class="form-control" id="InputSubject" placeholder="Enter Subject">
                 </div>
               </div>
               <div class="form-group row">
-                <label for="Textarea" class="col-md-2">Text:</label>
-                <div class="col-md-10">
+                <label for="Textarea" class="col-xs-2">Text:</label>
+                <div class="col-xs-10">
                   <textarea class="form-control" id="Textarea" rows="4" placeholder="What's on you'r mind mate?"></textarea>
                 </div>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
             </form>
             <div class="loader"></div>
           </div>
