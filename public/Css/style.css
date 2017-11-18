@@ -1,5 +1,5 @@
 
-body, p, h1, h2, h3, li, a, label, #form-submit{
+body, p, h1, h2, h3, li, a, label, #form-submit, #left-nav{
 	font-family: Helvetica, serif;
   font-size: 150%;
 }
@@ -146,6 +146,7 @@ input.formInvalid::-webkit-input-placeholder, textarea.formInvalid::-webkit-inpu
 }
 .footer a{
 		color: #000000;
+    font-size: 100%;
 }
 
 @keyframes spin {
