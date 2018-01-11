@@ -56,5 +56,5 @@ app.post('/mail', function(req, res){
   });
 });
 
-app.listen(process.env.PORT || '5000');
+app.listen(process.env.PORT || config.port);
 console.log("Its all starts here...");
