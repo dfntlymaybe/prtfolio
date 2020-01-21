@@ -2,8 +2,8 @@
 var config = {};
 
 config.sender = {
-  user: 'sholehmailim@gmail.com',
-  pass: 'zxcvb09876'
+  user: 'username@gmail.com',
+  pass: 'password'
 }
  config.port = "5000";
  
